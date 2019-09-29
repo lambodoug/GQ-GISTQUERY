@@ -16,11 +16,11 @@ executions for the same username will tell you if a new gist has been added by t
 To reset an individual query, delete `/tmp/gq.<username>`.
 To reset all queries, delete `/tmp/gq.*`
 
-# travis-lab for Continuous Intergreation
+# Travis-CI for Continuous Intergreation
 Once a change is committed to your repository, this will result in the trigger of a new run of your job on Travis CI. 
 On the page https://travis-ci.org/lambodoug/gq-gistquery, click Build History. You may see your build in progress.
 
-[![Build status](https://travis-ci.org/lambodoug)
+[![Build status]](https://travis-ci.org/lambodoug)
 
 ## Requirements
 
