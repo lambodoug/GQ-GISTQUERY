@@ -37,7 +37,7 @@ GIST_URL = 'http://api.github.com/users/' + args.gitUser + '/gists'
 # If status code is not 200 handle it and exit
 
 r = requests.get(GIST_URL)
-if r.status_code <> 200:
+if r.status_code != 200:
     if r.status_code == 404:
         print ('Error: Github user "' + args.gitUser + '" not found.')
     else:
