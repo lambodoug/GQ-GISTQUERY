@@ -7,4 +7,4 @@ install:
   - pip install -r requirements.txt
 # command to run tests
 script:
-  - pytest /home/travis/build/lambodoug/GQ-GISTQUERY lambodoug
+  - pytest /home/travis/build/lambodoug/GQ-GISTQUERY gq.py
